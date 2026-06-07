@@ -140,7 +140,7 @@ Open in browser: **http://localhost:8501**
 
 ```
 ipl-stats-dashboard/
-├── app.py              # Main Streamlit application (~1200 lines)
+├── app.py              # Main Streamlit application
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 └── .gitignore          # Git ignore rules
