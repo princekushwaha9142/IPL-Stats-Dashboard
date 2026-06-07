@@ -1547,9 +1547,9 @@ with tabs[10]:
             correct = q["ans"]
             for opt in q["opts"]:
                 if opt == correct:
-                    st.success(f"✅ {opt} — SAHI!")
+                    st.success(f"✅ {opt} — CORRECT!")
                 elif opt == sel and sel != correct:
-                    st.error(f"❌ {opt} — GALAT!")
+                    st.error(f"❌ {opt} — WRONG!")
                 else:
                     st.markdown(f"⬜ {opt}")
             st.info(f"💡 Fun Fact: {q['fact']}")
