@@ -195,7 +195,6 @@ openpyxl>=3.1.0
 **Prince Kumar**
  
 - GitHub: [@princekushwaha9142](https://github.com/princekushwaha9142)
-- 📍 Patna, Bihar, India
 - 💻 Python Developer | Backend & Data Science Enthusiast
 Built as a **Phase Project** for GitHub portfolio.
 
