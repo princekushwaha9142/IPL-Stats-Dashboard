@@ -1,6 +1,19 @@
 # 🏏 IPL Analytics Hub
 
-A production-grade **Streamlit dashboard** for Indian Premier League (IPL) statistics from **2016 to 2025**, built with Python, Plotly and Pandas.
+A production-grade **Streamlit dashboard** for Indian Premier League (IPL) statistics from **2016 to 2026**, built with Python, Plotly and Pandas.
+
+---
+
+## 🏆 IPL 2026 Highlights
+
+| Award | Winner | Stat |
+|-------|--------|------|
+| 🏆 Champion | Royal Challengers Bengaluru | Back-to-Back titles (2025 & 2026)! |
+| 🟠 Orange Cap | Vaibhav Suryavanshi (RR) | 776 runs · SR 237.30 · 72 sixes |
+| 🟣 Purple Cap | Kagiso Rabada (GT) | 29 wickets · 2nd Purple Cap |
+| 🏅 Final POTM | Virat Kohli (RCB) | 75* off 42 balls in Final |
+| 📈 Best Avg RPO | 9.88 | Highest ever in IPL history |
+| 💥 Most Sixes | 1,426 | New all-time IPL record |
 
 ---
 
@@ -14,7 +27,7 @@ cd ipl-analytics-hub
 
 ### 2. Create virtual environment
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate        # Linux / Mac
 venv\Scripts\activate           # Windows
 ```
@@ -33,7 +46,7 @@ Open in browser: **http://localhost:8501**
 
 ---
 
-## 📋 Dashboard Tabs
+## 📋 Dashboard Tabs (11 Total)
 
 ### 🏏 Batting Stats
 - Strike rate leaders bar chart (per season / team)
@@ -55,11 +68,11 @@ Open in browser: **http://localhost:8501**
 - Win percentage horizontal bar chart
 - Head-to-head matrix heatmap (top 6 teams)
 
-### 📈 Season Trends (2016–2025)
+### 📈 Season Trends (2016–2026)
 - Average RPO trend across all seasons
 - Total sixes per season bar chart
 - Orange Cap runs by season (color = that year's champion)
-- Full champions table 2016–2025
+- Full champions table 2016–2026
 
 ### ⚔️ Player Comparison
 - Side-by-side batter or bowler comparison cards
@@ -90,7 +103,7 @@ Open in browser: **http://localhost:8501**
 ### 🧠 AI Chatbot
 - Ask anything about IPL — players, teams, venues, records
 - Quick question buttons for instant answers
-- Covers full 2016–2025 history and stats
+- Covers full 2016–2026 history and stats
 
 ### 🎮 IPL Quiz
 - 10 trivia questions about IPL history
@@ -104,7 +117,7 @@ Open in browser: **http://localhost:8501**
 
 | Filter | Description |
 |--------|-------------|
-| 📅 Season | Any year 2016–2025, or All Seasons |
+| 📅 Season | Any year 2016–2026, or All Seasons |
 | 🏟️ Team | Filter by any of the 10 IPL franchises |
 | Min Runs | Show batters above a minimum run threshold |
 | Min Wickets | Show bowlers above a minimum wicket threshold |
@@ -119,18 +132,18 @@ Open in browser: **http://localhost:8501**
 | 2016–2021 | 30+ per season | 30+ per season |
 | 2022–2024 | 35+ per season | 35+ per season |
 | 2025 | 40+ (all 10 teams) | 40+ (all 10 teams) |
+| 2026 | 45+ (all 10 teams) | 20+ (all 10 teams) |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-ipl-analytics-hub/
-├── app.py              # Main Streamlit application (~1000 lines)
+ipl-stats-dashboard/
+├── app.py              # Main Streamlit application (~1200 lines)
 ├── requirements.txt    # Python dependencies
-└── README.md 
-└── .gitignore
-# Project documentation
+├── README.md           # Project documentation
+└── .gitignore          # Git ignore rules
 ```
 
 ---
@@ -173,8 +186,19 @@ openpyxl>=3.1.0
 
 - [ESPNcricinfo](https://www.espncricinfo.com)
 - [IPL Official](https://www.iplt20.com)
-- IPL 2025 stats verified from official records
+- IPL 2025 & 2026 stats verified from official records
 
 ---
 
-*IPL Analytics Hub · 2016–2025 · Streamlit + Plotly + Python*
+# 👤 Author
+ 
+**Prince Kumar**
+ 
+- GitHub: [@princekushwaha9142](https://github.com/princekushwaha9142)
+- 📍 Patna, Bihar, India
+- 💻 Python Developer | Backend & Data Science Enthusiast
+Built as a **Phase Project** for GitHub portfolio.
+
+---
+
+*IPL Analytics Hub · 2016–2026 · Streamlit + Plotly + Python*

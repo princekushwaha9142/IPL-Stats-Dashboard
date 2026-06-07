@@ -243,6 +243,35 @@ def load_all_data():
         ("Yashasvi Jaiswal","RR","2024",435,13,39.5,157.9,36,28,3,1,"Opener"),
         ("Sanju Samson","RR","2024",531,14,45.8,150.3,48,26,5,1,"WK-Bat"),
         ("Venkatesh Iyer","KKR","2024",351,14,43.9,154.4,30,20,3,0,"Captain"),
+        # ── 2026 BATTING DATA (Real Stats) ──────────────────
+        ("Vaibhav Suryavanshi","RR","2026",776,16,48.50,237.30,58,72,5,2,"🟠 Orange Cap · MVP"),
+        ("Shubman Gill","GT","2026",732,17,48.80,162.40,65,42,7,2,"Top Scorer"),
+        ("Sai Sudharsan","GT","2026",722,17,48.13,152.20,75,28,7,1,"Most Fours"),
+        ("Virat Kohli","RCB","2026",675,16,56.25,148.40,62,28,6,1,"🏆 Final POTM"),
+        ("Abhishek Sharma","SRH","2026",612,15,45.50,194.30,48,48,5,1,"Opener"),
+        ("KL Rahul","DC","2026",598,15,46.00,152.00,52,22,5,2,"152* Highest Score"),
+        ("Yashasvi Jaiswal","RR","2026",554,15,42.60,168.20,48,38,4,1,"Opener"),
+        ("Travis Head","SRH","2026",538,14,43.80,188.10,44,42,4,1,"Aggressive Opener"),
+        ("Faf du Plessis","CSK","2026",498,15,38.30,142.80,48,26,4,0,"Captain"),
+        ("Ruturaj Gaikwad","CSK","2026",476,15,36.60,138.40,46,20,4,0,"Opener"),
+        ("Rohit Sharma","MI","2026",452,14,38.50,134.20,44,20,4,0,"Captain"),
+        ("Suryakumar Yadav","MI","2026",488,15,40.70,172.60,38,38,4,0,"Power Hitter"),
+        ("Rinku Singh","KKR","2026",412,14,37.40,158.40,34,28,3,0,"Finisher"),
+        ("Phil Salt","KKR","2026",468,15,36.00,168.20,40,32,4,1,"Opener"),
+        ("Jos Buttler","RCB","2026",421,13,38.20,162.80,36,30,3,1,"Opener"),
+        ("Nicholas Pooran","LSG","2026",502,14,45.60,172.40,34,48,4,1,"WK-Bat"),
+        ("Rishabh Pant","LSG","2026",438,13,39.80,154.20,38,28,4,1,"Captain"),
+        ("Prabhsimran Singh","PBKS","2026",468,14,38.20,162.40,40,34,4,1,"Opener"),
+        ("Shreyas Iyer","PBKS","2026",412,14,34.30,144.20,36,22,3,0,"Captain"),
+        ("Jake Fraser-McGurk","DC","2026",524,15,40.30,192.60,40,46,4,1,"Explosive Opener"),
+        ("Sanju Samson","RR","2026",398,13,36.20,152.40,36,28,3,1,"WK-Captain"),
+        ("David Miller","GT","2026",376,13,34.20,158.40,28,32,2,0,"Finisher"),
+        # 2026 RCB
+        ("Devdutt Padikkal","RCB","2026",354,12,35.40,155.90,30,24,3,0,"Middle Order"),
+        ("Krunal Pandya","RCB","2026",198,13,18.00,132.00,16,12,0,0,"All-rounder"),
+        # 2026 DC
+        ("Axar Patel","DC","2026",312,13,28.40,148.60,24,20,1,0,"All-rounder"),
+        # ── END 2026 BATTING ──────────────────────────────────
         ("Sai Sudharsan","GT","2025",759,15,54.21,156.17,88,28,6,1,"🟠 Orange Cap"),
         ("Suryakumar Yadav","MI","2025",717,16,53.6,158.4,72,35,6,0,"⭐ Highest Impact"),
         ("Virat Kohli","RCB","2025",657,14,54.75,144.7,65,22,5,0,"🏆 Champion"),
@@ -681,6 +710,28 @@ def load_all_data():
         ("Sandeep Sharma","PBKS","2016",14,8.64,24.8,17.2,8.2,8.6,9.8,28,"Pace"),
         ("Jasprit Bumrah","MI","2024",15,7.43,17.3,13.4,6.8,6.5,8.3,42,"Pace"),
         ("Mohammed Siraj","RCB","2024",19,8.45,22.6,16.0,8.1,8.0,9.2,33,"Powerplay"),
+        # ── 2026 BOWLING DATA (Real Stats) ──────────────────
+        ("Kagiso Rabada","GT","2026",29,9.68,21.58,14.4,9.2,9.6,10.8,30,"🟣 Purple Cap (2nd title)"),
+        ("Bhuvneshwar Kumar","RCB","2026",28,7.95,19.80,13.2,7.4,7.8,9.2,38,"2nd Place"),
+        ("Jofra Archer","RR","2026",25,8.42,20.40,14.8,7.8,8.2,9.8,34,"Top Pacer"),
+        ("Josh Hazlewood","RCB","2026",22,7.82,21.40,14.6,7.2,7.8,8.8,38,"RCB Spearhead"),
+        ("Rashid Khan","GT","2026",21,9.08,22.40,17.8,8.6,9.0,10.2,30,"Top Spinner"),
+        ("Jasprit Bumrah","MI","2026",20,8.12,22.20,15.8,7.6,8.0,9.4,36,"MI Spearhead"),
+        ("Mohammed Shami","GT","2026",19,8.84,23.20,15.4,8.4,8.8,10.0,32,"Swing"),
+        ("Mohsin Khan","LSG","2026",18,8.24,23.40,15.8,7.8,8.2,9.6,34,"5/23 Best Figures"),
+        ("Arshdeep Singh","PBKS","2026",18,8.64,22.80,15.6,8.2,8.6,10.0,32,"Left Arm Pace"),
+        ("Varun Chakravarthy","KKR","2026",17,8.42,23.60,17.8,8.0,8.4,9.6,32,"Mystery Spin"),
+        ("Rasikh Salam","RCB","2026",16,8.62,24.20,16.2,8.2,8.6,9.8,30,"3/27 in Final"),
+        ("Prasidh Krishna","GT","2026",15,8.92,25.40,16.8,8.4,8.8,10.2,28,"Spearhead"),
+        ("Noor Ahmad","CSK","2026",16,8.02,23.80,18.4,7.6,8.0,9.2,34,"Spinner"),
+        ("Pat Cummins","SRH","2026",18,9.12,23.40,15.4,8.6,9.0,10.4,30,"Captain-Bowler"),
+        ("Trent Boult","MI","2026",17,8.42,23.20,15.8,7.8,8.2,9.8,32,"Swing"),
+        ("Matheesha Pathirana","CSK","2026",15,8.84,24.60,15.6,8.4,8.8,10.2,30,"Death"),
+        ("Kuldeep Yadav","DC","2026",16,8.22,23.80,17.8,7.8,8.2,9.4,34,"Wrist Spin"),
+        ("Yuzvendra Chahal","RR","2026",14,8.84,25.80,21.4,8.4,8.8,10.2,28,"Leg Spin"),
+        ("Ravi Bishnoi","LSG","2026",15,8.02,24.40,19.8,7.6,8.0,9.2,34,"Leg Spin"),
+        ("Harshit Rana","KKR","2026",16,8.84,23.60,15.8,8.4,8.8,10.2,30,"Pace"),
+        # ── END 2026 BOWLING ──────────────────────────────────
         ("Prasidh Krishna","GT","2025",25,8.12,19.52,14.4,7.8,7.9,8.9,38,"🟣 Purple Cap"),
         ("Noor Ahmad","CSK","2025",24,7.83,17.0,13.0,6.9,7.5,9.1,41,"2nd Bowler"),
         ("Josh Hazlewood","RCB","2025",22,7.51,18.9,15.1,7.27,7.2,8.2,39,"3rd Bowler"),
@@ -742,16 +793,16 @@ def load_all_data():
     ], columns=["player","team","season","wickets","economy","avg","sr","pp_eco","mid_eco","death_eco","dot_pct","award"])
 
     seasons = pd.DataFrame({
-        "season":[2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],
-        "champion":["SRH","MI","CSK","MI","MI","CSK","GT","CSK","KKR","RCB"],
-        "runner_up":["RCB","RPS","SRH","CSK","DC","KKR","RR","GT","SRH","PBKS"],
-        "orange_cap":["Virat Kohli","David Warner","Kane Williamson","David Warner","KL Rahul","Faf du Plessis","Jos Buttler","Shubman Gill","Virat Kohli","Sai Sudharsan"],
-        "orange_runs":[973,641,735,692,670,633,863,890,741,759],
-        "purple_cap":["Bhuvneshwar Kumar","Bhuvneshwar Kumar","Andrew Tye","Ishant Sharma","Kagiso Rabada","Harshal Patel","Yuzvendra Chahal","Mohammed Shami","Harshal Patel","Prasidh Krishna"],
-        "purple_wkts":[26,26,24,19,30,32,27,28,24,25],
-        "avg_rpo":[8.3,8.4,8.5,8.6,8.8,8.9,9.1,9.4,9.56,9.62],
-        "total_sixes":[467,512,488,534,490,561,598,632,687,724],
-        "matches":[60,59,60,60,60,60,74,74,74,74],
+        "season":[2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026],
+        "champion":["SRH","MI","CSK","MI","MI","CSK","GT","CSK","KKR","RCB","RCB"],
+        "runner_up":["RCB","RPS","SRH","CSK","DC","KKR","RR","GT","SRH","PBKS","GT"],
+        "orange_cap":["Virat Kohli","David Warner","Kane Williamson","David Warner","KL Rahul","Faf du Plessis","Jos Buttler","Shubman Gill","Virat Kohli","Sai Sudharsan","Vaibhav Suryavanshi"],
+        "orange_runs":[973,641,735,692,670,633,863,890,741,759,776],
+        "purple_cap":["Bhuvneshwar Kumar","Bhuvneshwar Kumar","Andrew Tye","Ishant Sharma","Kagiso Rabada","Harshal Patel","Yuzvendra Chahal","Mohammed Shami","Harshal Patel","Prasidh Krishna","Kagiso Rabada"],
+        "purple_wkts":[26,26,24,19,30,32,27,28,24,25,29],
+        "avg_rpo":[8.3,8.4,8.5,8.6,8.8,8.9,9.1,9.4,9.56,9.62,9.88],
+        "total_sixes":[467,512,488,534,490,561,598,632,687,724,1426],
+        "matches":[60,59,60,60,60,60,74,74,74,74,74],
     })
 
     teams = pd.DataFrame({
@@ -824,11 +875,11 @@ def dl(fig, h=380, xt="", yt="", xr=None, yr2=None):
 ticker_scores = [
     "🏏 MI vs CSK — Live: MI 142/4 (16.2 Ov) · Need 178",
     "⚡ RCB vs KKR — RCB won by 8 wkts",
-    "🔥 SRH vs GT — GT 189/5 (20 Ov) · SRH need 190 in 20 Ov",
-    "🏆 2025 Champion: RCB 🎉 | 🟠 Orange Cap: Sai Sudharsan 759 runs",
-    "🟣 Purple Cap 2025: Prasidh Krishna 25 wkts | 💥 Highest Score: Suryakumar Yadav 117*",
-    "📅 Next: RR vs PBKS — Sawai Mansingh Stadium, Jaipur | Tonight 7:30 PM IST",
-    "🌟 Player of the Tournament 2025: Sai Sudharsan (GT) — 759 runs @ SR 156",
+    "🔥 RCB vs GT Final 2026 — RCB won by 5 wickets · Kohli 75* off 42",
+    "🏆 2026 Champion: RCB 🎉 Back-to-back titles! | 🟠 Orange Cap: Vaibhav Suryavanshi 776 runs @ SR 237!",
+    "🟣 Purple Cap 2026: Kagiso Rabada 29 wkts (GT) | 💥 KL Rahul 152* (67 balls) — Highest by Indian in IPL history (2026)",
+    "📅 IPL 2026 Final: RCB beat GT by 5 wkts | Virat Kohli 75* (42) — Player of the Match 🏆",
+    "🌟 MVP 2026: Vaibhav Suryavanshi (RR) — 776 runs @ SR 237 · 72 sixes · 5 awards in one season 🏆",
 ]
 ticker_text = "   •   ".join(ticker_scores) * 2
 st.markdown(f"""<div class="ticker-wrap">
@@ -839,7 +890,7 @@ with st.sidebar:
     st.markdown(f"""<div style='text-align:center;padding:10px 0;'>
     <div style='font-size:2rem;'>🏏</div>
     <div style='font-family:Rajdhani,sans-serif;font-size:1.05rem;font-weight:700;color:{GOLD};'>IPL ANALYTICS HUB</div>
-    <div style='color:{TEXT2};font-size:0.7rem;'>2016–2025 · 10 Features</div>
+    <div style='color:{TEXT2};font-size:0.7rem;'>2016–2026 · 10 Features</div>
     </div><hr style='border:1px solid {BORDER};margin:8px 0;'>""", unsafe_allow_html=True)
 
     # Theme toggle
@@ -849,14 +900,14 @@ with st.sidebar:
         st.rerun()
 
     st.markdown("<br>", unsafe_allow_html=True)
-    season_options=["All Seasons","2025","2024","2023","2022","2021","2020","2019","2018","2017","2016"]
+    season_options=["All Seasons","2026","2025","2024","2023","2022","2021","2020","2019","2018","2017","2016"]
     selected_season=st.selectbox("📅 Season", season_options, index=0)
     selected_team=st.selectbox("🏟️ Team", ["All Teams","RCB","MI","CSK","KKR","SRH","GT","RR","DC","PBKS","LSG"], index=0)
     min_runs=st.slider("Min Runs", 0, 900, 0, 50)
     min_wkts=st.slider("Min Wickets", 0, 32, 0, 1)
     st.markdown("---")
     st.markdown(f"""<div style='color:{TEXT2};font-size:0.7rem;text-align:center;'>
-    📊 ESPNcricinfo + IPL Official<br>🏆 2025: <span style='color:{GOLD};'>RCB</span></div>""", unsafe_allow_html=True)
+    📊 ESPNcricinfo + IPL Official<br>🏆 2026: <span style='color:{GOLD};'>RCB 🎉</span> Back-to-Back!</div>""", unsafe_allow_html=True)
 
 yr = selected_season
 
@@ -889,16 +940,17 @@ if yr != "All Seasons" and yr.isdigit():
         koc=kow=kpc=kpw=krpo=ks6=kch="N/A"; boc=bpc=bch=""
 else:
     koc="973"; kow="Virat Kohli (2016)"; kpc="32"; kpw="Harshal Patel (2021)"
-    krpo="9.62 (2025)"; ks6="724 (2025)"; kch="RCB (2025)"
+    krpo="9.88"; ks6="1,426"; kch="RCB (2026)"
     boc="🟠 All-Time: Virat Kohli — 973 runs (2016)"
     bpc="🟣 All-Time: Harshal Patel — 32 wkts (2021)"
-    bch="🏆 Most Titles: MI & CSK — 5 each"
+    bch="🏆 Most Titles: MI & CSK 5 each | RCB: Back-to-Back 2025–26 🔥"
 
-season_label = yr if yr != "All Seasons" else "2016–2025"
+season_label = yr if yr != "All Seasons" else ""
+sub_text = f"Season: {season_label}" if season_label else "All Seasons · 2016–2026"
 st.markdown(f"""<div class="ipl-header">
   <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;">
     <div><div class="ipl-title">🏏 IPL ANALYTICS HUB</div>
-    <div class="ipl-subtitle">Indian Premier League · {season_label} · 10 Advanced Features</div></div>
+    <div class="ipl-subtitle">Indian Premier League · {sub_text} · Advanced Stats Dashboard</div></div>
     <div style="display:flex;gap:5px;flex-wrap:wrap;">
       <span class="season-badge">{boc}</span>
       <span class="season-badge">{bpc}</span>
@@ -910,8 +962,8 @@ st.markdown(f"""<div class="ipl-header">
 k1,k2,k3,k4,k5 = st.columns(5)
 k1.metric(f"🟠 Runs ({yr})", koc, kow)
 k2.metric(f"🟣 Wickets ({yr})", kpc, kpw)
-k3.metric("⚡ Avg RPO", krpo)
-k4.metric("💥 Sixes", ks6)
+k3.metric("⚡ Best Avg RPO", krpo, "2026")
+k4.metric("💥 Most Sixes", ks6, "2026")
 k5.metric("🏆 Champion", kch)
 st.markdown("<br>", unsafe_allow_html=True)
 
@@ -1050,7 +1102,7 @@ with tabs[2]:
 
 # ══ TAB 4: TRENDS ═══════════════════════════════════════════════════════════
 with tabs[3]:
-    st.markdown('<div class="section-header">📈 Season Trends 2016–2025</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-header">📈 Season Trends 2016–2026</div>', unsafe_allow_html=True)
     c1,c2 = st.columns(2)
     with c1:
         fig = px.line(seasons_df, x="season", y="avg_rpo", markers=True, line_shape="spline", title="Avg RPO per Season", color_discrete_sequence=[GOLD])
@@ -1362,9 +1414,12 @@ with tabs[9]:
 
     # Knowledge base
     ipl_kb = {
-        "orange cap 2025": "🟠 Orange Cap 2025: **Sai Sudharsan** (GT) — 759 runs, Avg 54.21, SR 156.17",
-        "purple cap 2025": "🟣 Purple Cap 2025: **Prasidh Krishna** (GT) — 25 wickets, Avg 19.52",
-        "champion 2025": "🏆 IPL 2025 Champion: **Royal Challengers Bengaluru (RCB)** — their first ever title!",
+        "orange cap 2025": "🟠 Orange Cap 2025: **Sai Sudharsan** (GT) — 759 runs @ SR 156.17"
+        ,"orange cap 2026": "🟠 Orange Cap 2026: **Vaibhav Suryavanshi** (RR) — 776 runs @ SR 237.30 🔥 Youngest ever!",
+        "purple cap 2025": "🟣 Purple Cap 2025: **Prasidh Krishna** (GT) — 25 wickets"
+        ,"purple cap 2026": "🟣 Purple Cap 2026: **Kagiso Rabada** (GT) — 29 wickets, Econ 9.68 (2nd title!)",
+        "champion 2026": "🏆 IPL 2026 Champion: **RCB** — Back-to-Back! Beat GT in Final. Kohli 75* POTM"
+        ,"champion 2025": "🏆 IPL 2025 Champion: **Royal Challengers Bengaluru (RCB)** — their first ever title!",
         "winner 2025": "🏆 IPL 2025 Winner: **RCB** — beat PBKS in the final!",
         "most titles": "🏆 Most IPL Titles: **Mumbai Indians & CSK** — 5 titles each",
         "most runs": "🟠 Most Runs in IPL History: **Virat Kohli** — 7000+ runs across all seasons",
@@ -1373,7 +1428,7 @@ with tabs[9]:
         "best economy": "🎯 Best Economy Rate: **Rashid Khan** — ~6.3 economy in IPL",
         "highest score": "💥 Highest Team Score: **RCB 263/5** vs PWI (2013)",
         "lowest score": "📉 Lowest Team Score: **RCB 49** vs KKR (2017)",
-        "rcb": "🔴 **RCB** — Royal Challengers Bengaluru. 2025 Champions! Home: Chinnaswamy, Bengaluru. Key players: Virat Kohli, Phil Salt, Josh Hazlewood",
+        "rcb": "🔴 **RCB** — Royal Challengers Bengaluru. 🏆 Back-to-Back Champions 2025 & 2026! Home: Chinnaswamy, Bengaluru. Key players: Virat Kohli, Phil Salt, Josh Hazlewood, Bhuvneshwar Kumar",
         "mi": "🔵 **MI** — Mumbai Indians. 5-time champions! Home: Wankhede, Mumbai. Key players: Rohit Sharma, Jasprit Bumrah, Suryakumar Yadav",
         "csk": "💛 **CSK** — Chennai Super Kings. 5-time champions! Home: Chepauk, Chennai. Key player: MS Dhoni",
         "kkr": "💜 **KKR** — Kolkata Knight Riders. 3-time champions (last: 2024). Home: Eden Gardens, Kolkata",
@@ -1381,14 +1436,17 @@ with tabs[9]:
         "ms dhoni": "🦁 **MS Dhoni** — CSK captain. Best finisher in IPL history. 5 IPL titles. 'Thala for a Reason'! 💛",
         "rohit sharma": "🎯 **Rohit Sharma** — MI captain. 5-time IPL champion. Best powerplay batter.",
         "jasprit bumrah": "💨 **Jasprit Bumrah** — MI spearhead. Best death bowler in IPL. Yorker king!",
-        "sai sudharsan": "🌟 **Sai Sudharsan** — GT star! 2025 Orange Cap winner — 759 runs @ SR 156. A very consistent batter!",
+        "sai sudharsan": "🌟 **Sai Sudharsan** — GT star! 2025 Orange Cap winner — 759 runs @ SR 156. Consistent batter!",
         "rashid khan": "🔄 **Rashid Khan** — Best spinner in IPL! Economy ~6.3. GT's key bowler. Afghanistan's pride!",
         "wankhede": "🏟 **Wankhede Stadium** (Mumbai) — MI's home. Flat pitch, small boundaries. Avg score ~168. High scoring venue!",
         "chepauk": "🏟 **Chepauk** (Chennai) — CSK's fortress. Slow, turning pitch. Spinners dominate. Avg score ~155.",
         "chinnaswamy": "🏟 **M Chinnaswamy** (Bengaluru) — RCB's home. Highest scoring venue in IPL! Avg ~185. Batting paradise.",
         "toss": "🪙 Toss factor: Bowl-first advantage at most venues. Chase win% ~52% overall in IPL. Dew factor matters in evening games.",
         "ipl 2016": "📅 IPL 2016: 🏆 Champion: **SRH** | 🟠 Orange Cap: **Virat Kohli** (973 runs) | 🟣 Purple Cap: **Bhuvneshwar Kumar** (26 wkts)",
-        "ipl 2024": "📅 IPL 2024: 🏆 Champion: **KKR** | 🟠 Orange Cap: **Virat Kohli** (741 runs) | 🟣 Purple Cap: **Harshal Patel** (24 wkts)",
+        "ipl 2024": "📅 IPL 2024: 🏆 Champion: **KKR** | 🟠 Orange Cap: **Virat Kohli** (741 runs) | 🟣 Purple Cap: **Harshal Patel** (24 wkts)"
+        ,"ipl 2026": "📅 IPL 2026: 🏆 Champion: **RCB** (back-to-back!) | 🟠 Orange Cap: **Vaibhav Suryavanshi** 776 runs @ SR 237 | 🟣 Purple Cap: **Kagiso Rabada** 29 wkts"
+        ,"vaibhav suryavanshi": "🌟 **Vaibhav Suryavanshi** (RR) — IPL 2026 sensation! 776 runs @ SR 237.30, 72 sixes. 15 years old! Won 5 awards in one season — first ever in IPL history! 🏆"
+        ,"2026": "📅 IPL 2026: Champion: **RCB** | Orange Cap: **Vaibhav Suryavanshi** 776 @ SR 237 | Purple Cap: **Kagiso Rabada** 29 wkts | Avg RPO: 9.88 (record!) | Sixes: 1,426 (record!)",
         "ipl 2023": "📅 IPL 2023: 🏆 Champion: **CSK** | 🟠 Orange Cap: **Shubman Gill** (890 runs) | 🟣 Purple Cap: **Mohammed Shami** (28 wkts)",
         "ipl 2022": "📅 IPL 2022: 🏆 Champion: **GT** | 🟠 Orange Cap: **Jos Buttler** (863 runs) | 🟣 Purple Cap: **Yuzvendra Chahal** (27 wkts)",
         "powerplay": "⚡ Powerplay (Ov 1-6): Avg ~8.6 RPO in 2025. Key stat — teams scoring 55+ in powerplay win 68% of matches!",
@@ -1423,7 +1481,7 @@ with tabs[9]:
     # Quick questions
     st.markdown("**⚡ Quick Questions:**")
     q_cols = st.columns(4)
-    quick_qs = ["Orange Cap 2025?","Tell me about RCB","Best economy bowler?","IPL 2024 results?"]
+    quick_qs = ["Orange Cap 2026?","Tell me about RCB","Vaibhav Suryavanshi stats","IPL 2026 results?"]
     for i,(qc,qq) in enumerate(zip(q_cols,quick_qs)):
         with qc:
             if st.button(qq, key=f"qq{i}", use_container_width=True):
@@ -1520,7 +1578,7 @@ with tabs[10]:
 
 st.markdown(f"""<hr style='border:1px solid {BORDER};margin:24px 0 12px;'>
 <div style='text-align:center;color:{TEXT2};font-size:0.72rem;padding-bottom:14px;'>
-🏏 IPL Analytics Hub v3.0 · 11 Tabs · 10 Features · 2016–2025 Data<br>
+🏏 IPL Analytics Hub v3.0 · 11 Tabs · 2016–2026 Data<br>
 📊 ESPNcricinfo + IPL Official · Built with Streamlit, Plotly & Python<br>
-🏆 2025 Champion: <strong style='color:{GOLD};'>RCB</strong> · 🟠 <strong style='color:{GOLD};'>Sai Sudharsan 759</strong> · 🟣 <strong style='color:{GOLD};'>Prasidh Krishna 25 wkts</strong>
+🏆 2026 Champion: <strong style='color:{GOLD};'>RCB 🎉 Back-to-Back!</strong> · 🟠 <strong style='color:{GOLD};'>Vaibhav Suryavanshi 776 @ SR 237</strong> · 🟣 <strong style='color:{GOLD};'>Kagiso Rabada 29 wkts</strong>
 </div>""", unsafe_allow_html=True)
