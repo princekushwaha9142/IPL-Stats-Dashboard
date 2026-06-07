@@ -154,7 +154,7 @@ ipl-stats-dashboard/
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your GitHub account
 4. Select `app.py` as the main file
-5. Click **Deploy** — live in under 2 minutes
+5. Click **Deploy**
 
 ---
 
